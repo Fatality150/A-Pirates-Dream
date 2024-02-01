@@ -15,4 +15,5 @@ Authors:
 Ehan Hassan
 Owen Hobbs
 
-As mentioned before this project is primarily based of a skeleton provided and made by Oliver van Kaick, and David Mould, so we would like to thank them as well as the many other talented people who provided any assets under the creative commons liscence. 
+As mentioned before this project is primarily based of a skeleton provided and made by Oliver van Kaick, and David Mould, so we would like to 
+thank them as well as the many other talented people who provided any assets under the creative commons liscence. 
