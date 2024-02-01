@@ -1,0 +1,46 @@
+TODO:
+As tasks are completed leave a * next to them if you wouldnt mind.
+
+
+Create assets:
+
+    Art:
+    The following will most likely be needed at minimun I (Owen) will try to stamp most of these out asap, may leave the background to last
+
+        Player asset ~ a pirate ship
+      
+        Enemy 1 asset ~ a naval ship
+      
+        Enemy 2 asset ~ a sea monster (giant fish/snake)
+      
+        Boss ~ A giant octopus
+            This will consist of multiple assets being:
+                The octopuses arms
+                The octopuses main body/head
+                Possibly an under side for the octopus
+      
+        Background ~ A sea, This will be a large scale image most likely stiched from end to end and extended out much longer in once direction as it is inteded to scroll along as the game progress
+            It is possible that we may introduce different themes along the map to introduce diversity such as a stormy area but the changes will most likely be minimal to the gameplay
+    
+    Sound Design:
+    We should start with some basic sounds from cc resources and if time is available we can make addition pieces
+
+        Canon fire for player and navy
+
+        explosion for hit registration
+
+        A sound for the monsters and the boss, if we need to these can share one sound
+
+    Additionally we can find these sounds if desired
+
+        sounds for the naval ships spawning and the player taking damage, they can be similar sounds such as cheers in different picthes.
+
+Code:
+
+    Well start with code that uses much of the stuff weve seen up until the second assignment, from which well have to start adding stuff ahead of schedule / along with later assignments. For now, the things we know we need
+
+        Scrolling the ship must move along with the a screen that is constantly moving in the same direction
+
+        much later down the line well have to figure out kinematics for the octopus
+
+        
