@@ -1,64 +1,18 @@
-Changes made:
+About this project:
 
-	game.h
+This project is a small scope game based on code provided by Oliver van Kaick <Oliver.vanKaick@carleton.ca>, and David Mould <mould@scs.carleton.ca>. 
 
-Added a player health variable on line 61
+The game is part of the scrolling, bullet hell genre and features a pirate aethstetic in which the player, a pirate is on an advanture at sea.
 
-Added a AudioManager on line 64
+Intended use:
 
-Added an varable to store the sound file index on lines 67 and 70
+In order to run this program it is highly reccomended that you make use of the cmake program and an ide such as visual studios or a 
+distribution of WSL (windows subsystem for linux).
 
-	game.cpp
+For the former there is a cmakelist which should handle the compiling required.
 
-Initialized player health on line 80
+Authors:
+Ehan Hassan
+Owen Hobbs
 
-Added new loop to spawn 3 game objects (enemies) starting on line 125 to 129
-
-Set the background game object to not active as to not collide with it
-
-Changed the texture paths on line 179 to include new sprites for the player and enemies
-
-Changed control handler to allow for a slightly more comfortable movement system. Lines 247 to 275
-
-Added detection for player explosion and subsequent game closure from lines 286 to 302
-
-Added a checker for explosion timers from lines 330 to 341
-
-Added collision handler on lines 345 to 378
-
-	game_object.h
-	
-Added a timer object on line 62
-
-Added a getter and a setter for the timer on lines 38 and 52
-
-Added an active member to game object to detect if the are valid to collide with on line 65
-
-Added a getter and a setter for object activeness on lines 37 and 51
-
-	game_object.cpp
-
-Initialized the timer on line 21
-
-Deleted the timer on line 26
-
-Used the timer class functions to pass the getter value on starting from line 29
-
-Used the timer class functions to start the time starting from line 35
-
-
-	timer.h
-
-Added variables for the start time, end time, and wether the timer is active from line 24
-
-	timer.cpp
-
-Initialized the active member on line 10 
-
-Set start time, end time and activeness on lines 23 to 29
-
-Checked wether the timer is finished on lines 36 to 42
-
-
-
-			Made On Windows 11
+As mentioned before this project is primarily based of a skeleton provided and made by Oliver van Kaick, and David Mould, so we would like to thank them as well as the many other talented people who provided any assets under the creative commons liscence. 
